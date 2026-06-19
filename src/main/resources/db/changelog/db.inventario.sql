@@ -2,14 +2,14 @@
 
 --changeset elias:13 
 create table inventario (
-    id_inventario BIGINT AUTO_INCREMENT PRIMARY KEY,
-    id_producto BIGINT NOT NULL,
-    cantidad_disponible INT NOT NULL,
-    ubicacion_bodega VARCHAR(100) NOT NULL
+    idInventario BIGINT AUTO_INCREMENT PRIMARY KEY,
+    idProducto BIGINT NOT NULL,
+    cantidadDisponible INT NOT NULL,
+    ubicacionBodega VARCHAR(100) NOT NULL
 );
 
 --changeset elias:14 
-insert into inventario (cantidad_disponible, id_producto, ubicacion_bodega) values
+insert into inventario (cantidadDisponible, idProducto, ubicacionBodega) values
 (2, 1, 'Bodega A'),
 (1, 2, 'Bodega B'),
 (4, 3, 'Bodega C'),
