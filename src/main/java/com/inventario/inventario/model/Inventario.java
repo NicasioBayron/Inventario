@@ -19,13 +19,13 @@ public class Inventario {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id_inventario")
+    @Column(name = "idInventario")
     private Long idInventario;
-    @Column(name = "id_producto")
+    @Column(name = "idProducto")
     private Long idProducto;
-    @Column(name = "cantidad_disponible")
+    @Column(name = "cantidadDisponible")
     private Integer cantidadDisponible;
-    @Column(name = "ubicacion_bodega")
+    @Column(name = "ubicacionBodega")
     private String ubicacionBodega;
 
     public void decreaseStock(Integer quantity) {

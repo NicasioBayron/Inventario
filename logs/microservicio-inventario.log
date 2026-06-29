@@ -49,3 +49,20 @@
 2026-06-26T01:40:49.311-04:00  INFO 26572 --- [inventario] [main] c.i.i.service.InventarioService          : Guardando inventario
 2026-06-26T01:40:49.325-04:00  INFO 26572 --- [inventario] [main] c.i.i.service.InventarioService          : Obteniendo todos los inventarios
 2026-06-26T01:40:49.338-04:00  INFO 26572 --- [inventario] [main] c.i.i.service.InventarioService          : Eliminando inventario
+2026-06-26T12:42:19.133-04:00  INFO 17184 --- [inventario] [main] c.i.i.c.InventarioControllerTests        : Starting InventarioControllerTests using Java 21.0.10 with PID 17184 (started by dynabook in C:\Users\dynabook\Downloads\bibliomusic\inventario)
+2026-06-26T12:42:19.136-04:00 DEBUG 17184 --- [inventario] [main] c.i.i.c.InventarioControllerTests        : Running with Spring Boot v4.0.7, Spring v7.0.8
+2026-06-26T12:42:19.137-04:00  INFO 17184 --- [inventario] [main] c.i.i.c.InventarioControllerTests        : No active profile set, falling back to 1 default profile: "default"
+2026-06-26T12:42:21.526-04:00  INFO 17184 --- [inventario] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-06-26T12:42:21.527-04:00  INFO 17184 --- [inventario] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-06-26T12:42:21.529-04:00  INFO 17184 --- [inventario] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2026-06-26T12:42:21.567-04:00  INFO 17184 --- [inventario] [main] c.i.i.c.InventarioControllerTests        : Started InventarioControllerTests in 2.873 seconds (process running for 4.347)
+2026-06-26T12:42:21.728-04:00  INFO 17184 --- [inventario] [main] c.i.i.controller.InventarioController    : OBTENIENDO INVENTARIO CON ID: 1
+2026-06-26T12:42:22.099-04:00  INFO 17184 --- [inventario] [main] c.i.i.controller.InventarioController    : Obteniendo todos los inventarios
+2026-06-26T12:42:22.198-04:00  INFO 17184 --- [inventario] [main] c.i.i.controller.InventarioController    : Creando inventario
+2026-06-26T12:42:22.220-04:00  INFO 17184 --- [inventario] [main] c.i.i.controller.InventarioController    : Actualizando inventario
+2026-06-26T12:42:22.239-04:00  INFO 17184 --- [inventario] [main] c.i.i.controller.InventarioController    : Eliminando inventario
+2026-06-26T12:42:22.596-04:00  INFO 17184 --- [inventario] [main] c.i.i.service.InventarioService          : Obteniendo inventario con id 1
+2026-06-26T12:42:22.624-04:00  INFO 17184 --- [inventario] [main] c.i.i.service.InventarioService          : Inventario actualizado
+2026-06-26T12:42:22.631-04:00  INFO 17184 --- [inventario] [main] c.i.i.service.InventarioService          : Guardando inventario
+2026-06-26T12:42:22.642-04:00  INFO 17184 --- [inventario] [main] c.i.i.service.InventarioService          : Obteniendo todos los inventarios
+2026-06-26T12:42:22.652-04:00  INFO 17184 --- [inventario] [main] c.i.i.service.InventarioService          : Eliminando inventario
